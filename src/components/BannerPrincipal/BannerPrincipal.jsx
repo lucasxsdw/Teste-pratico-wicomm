@@ -7,13 +7,13 @@ export function BannerPrincipal() {
         <div className="banner_content">
           <div className="topo-preco">
             <del className="preco-antigo">R$ 799,00</del>
-            <div className="promo">20% OFF</div>
+            <div className="promo">20% DE DESCONTO</div>
           </div>
           <h1 className="preco-atual">R$ 350,00</h1>
         </div>
 
         <a href="#" className="confira-button">
-          Confira
+          <span>CONFIRA</span>
         </a>
 
         <div className="paginacao-container">
