@@ -1,4 +1,4 @@
-export function CarrosselImg({ dadosCarrossel, tipoCarrossel }) {
+export function CarrosselImg({ dadosCarrossel, tipoCarrossel}) {
   return (
     <>
       {dadosCarrossel.map((item) => {
@@ -7,7 +7,7 @@ export function CarrosselImg({ dadosCarrossel, tipoCarrossel }) {
             <div className="marca-card" key={item.id}>
               <img
                 src={item.img}
-                alt={item.titulo}
+                alt={item.titulo || "Marca"}
                 className="marca-img-fundo"
               />
 
@@ -18,14 +18,12 @@ export function CarrosselImg({ dadosCarrossel, tipoCarrossel }) {
                   className="marca-logo"
                 />
               )}
-
-              <h3 className="marca-nome">{item.titulo}</h3>
             </div>
           );
         }
 
         return (
-          <div className="produto-card" key={item.id}>
+          <div className="produto-card" key={item.id} > 
             <img src={item.img} alt={item.titulo} className="produto-img" />
             <h3 className="produto-tag">{item.titulo}</h3>
           </div>

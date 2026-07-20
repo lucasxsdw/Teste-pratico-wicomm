@@ -5,10 +5,15 @@ function LogoNavBar() {
   return (
     <>
       {imgensNavBar.map((icone) => (
+        
         <div className="container-icone-navBar" key={icone.id}>
           <img src={icone.img} alt={icone.desc} />
         </div>
+
+       
       ))}
+
+
     </>
   );
 }

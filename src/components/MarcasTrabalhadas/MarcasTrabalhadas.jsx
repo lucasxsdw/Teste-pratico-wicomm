@@ -29,10 +29,7 @@ export function MarcasTrabalhadas() {
             dadosProdutos={listaProdutosMasculinos}
             variante="destaque"
           />
-          <ProdutosCard
-            dadosProdutos={listaProdutosMasculinos}
-            variante="destaque"
-          />
+          
         </div>
       </div>
     </section>

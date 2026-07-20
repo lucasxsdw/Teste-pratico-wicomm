@@ -11,6 +11,7 @@ export function FiltroProdutos() {
         <h3 className="nomes-filtros">Infantil</h3>
         <h3 className="nomes-filtros">Baby</h3>
         <h3 className="nomes-filtros">Lançamento</h3>
+        <h3 className="nomes-filtros">Favoritos</h3>
       </div>
 
       <div className="barra-filtro">
@@ -22,11 +23,9 @@ export function FiltroProdutos() {
           <ProdutosCard
             dadosProdutos={listaProdutosMasculinos}
             variante="normal"
+           
           />
-          <ProdutosCard
-            dadosProdutos={listaProdutosMasculinos}
-            variante="normal"
-          />
+        
         </div>
       </div>
     </section>

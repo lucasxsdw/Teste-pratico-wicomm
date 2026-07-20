@@ -43,7 +43,7 @@ export function ProdutosCard({ dadosProdutos, variante = "normal" }) {
                 sem juros
               </p>
 
-              <button className="botao-comprar">Comprar agora</button>
+              <button className="botao-comprar"  type="button"  >Comprar agora</button>
             </div>
           </div>
         );

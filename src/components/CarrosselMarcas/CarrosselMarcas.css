@@ -1,13 +1,29 @@
 .marcas-section {
   margin-top: 32px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding-left: 15px; 
+  box-sizing: border-box;
 }
 
 .card-marcas {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-left: 15px;
   gap: 9px;
+
+  width: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+
+
+
+.card-marcas::-webkit-scrollbar {
+  display: none; 
 }
 
 .marca-card {
@@ -17,6 +33,7 @@
   border-radius: 15px;
   overflow: hidden;
   flex-shrink: 0;
+  
 }
 
 .marca-img-fundo {
@@ -26,13 +43,24 @@
 }
 
 .marca-logo {
+  
   position: absolute;
   bottom: 24px;
   left: 49%;
   transform: translate(-50%);
   max-width: 80%;
   object-fit: contain;
+  z-index: 2;
+
 }
+
+.card-marcas .marca-card:nth-child(3) .marca-logo {
+  width: 67px;
+  height: auto;
+  bottom: 22px;
+  filter: brightness(0) invert(1);
+}
+
 
 .produto-card {
   display: flex;

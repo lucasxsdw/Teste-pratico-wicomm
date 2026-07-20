@@ -1,4 +1,5 @@
 import "./App.css";
+import { useState } from "react";
 import { Header } from "./components/Header/Header";
 import { BannerPrincipal } from "./components/BannerPrincipal/BannerPrincipal";
 import { CarrosselProdutos } from "./components/CarrosselProdutos/CarrosselProdutos";
@@ -8,19 +9,25 @@ import { FiltroProdutos } from "./components/FiltroProdutos/FiltroProdutos";
 import { MarcasTrabalhadas } from "./components/MarcasTrabalhadas/MarcasTrabalhadas";
 import { Novidades } from "./components/Novidades/Novidades";
 import { NavBar } from "./components/NavBar/NavBar";
+import {HomeIndicador} from "./components/HomeIndicador/HomeIndicador"
 
 function App() {
+  
   return (
+
     <div className="app-container">
-      <Header />
+      
+      
+      <Header  />
       <BannerPrincipal />
-      <CarrosselProdutos />
+      <CarrosselProdutos  />
       <CarrosselTamanhos />
       <CarrosselMarcas />
-      <FiltroProdutos />
+      <FiltroProdutos  />
       <MarcasTrabalhadas />
-      <Novidades />
+      <Novidades  />
       <NavBar />
+      <HomeIndicador />
     </div>
   );
 }

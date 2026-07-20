@@ -24,3 +24,35 @@
   height: 20px;
   gap: 12px;
 }
+
+/*adicionar produto carrinho*/
+.carrinho-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-carrinho {
+  position: absolute;
+  top: -1px;
+  right: -4px;
+  background-color: #C8102E; /* Vermelho do tema */
+  color: #FFFFFF;
+  font-size: 10px;
+  font-weight: 500;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+
+
+line-height: 22px;
+letter-spacing: 0.02em;
+
+
+}

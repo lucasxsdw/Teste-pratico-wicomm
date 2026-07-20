@@ -1,0 +1,16 @@
+.container-home-indicador {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #FFFFFF; /* Mesma cor de fundo do app */
+}
+
+.home-indicador {
+  width: 134px;       
+  height: 5px;        
+  background: linear-gradient(102.59deg, #E23D58 0%, #C8102E 100%);
+  border-radius: 100px; 
+}

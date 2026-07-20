@@ -7,21 +7,21 @@ import setaDireita from "../../assets/setaDireita.svg";
 
 export function Novidades() {
   return (
+    <>
     <section className="novidades-container">
       <div className="container-produtos-novidades">
         <div className="novidades-text">
           <h3>Novidades</h3>
         </div>
-        <div className="card-produtos">
-          <ProdutosCard
-            dadosProdutos={listaProdutosMasculinos}
-            variante="destaque"
-          />
-          <ProdutosCard
-            dadosProdutos={listaProdutosMasculinos}
-            variante="destaque"
-          />
-        </div>
+        
+        <div className="carrossel-produtos-container">
+        <ProdutosCard
+          dadosProdutos={listaProdutosMasculinos}
+          variante="destaque"
+         
+        />
+      </div>
+      
       </div>
 
       <BotaoSeta
@@ -30,9 +30,13 @@ export function Novidades() {
         classePosicao="posicao-seta-dir"
       />
 
-      <div className="container-img-modelo">
+
+    </section>
+
+     <div className="container-img-modelo">
         <img src={modeloFeminina} alt="Foto modelo de uma feminina" />
       </div>
-    </section>
+
+      </>
   );
 }

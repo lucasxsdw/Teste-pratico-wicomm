@@ -4,6 +4,9 @@
   margin-top: 28px;
   gap: 13px;
   position: relative;
+  
+
+
 }
 
 .tamanhos-section h3 {
@@ -23,6 +26,7 @@
   align-items: center;
   position: relative;
   width: 100%;
+
 }
 
 .tamanhos-card {

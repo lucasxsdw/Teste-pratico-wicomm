@@ -5,7 +5,10 @@
   flex-direction: column;
   border-radius: 18px;
   overflow: hidden;
+  flex-shrink: 0; 
+  background-color: #F2F2F0;
 }
+
 
 .desc-produto {
   background-color: #F6F6F6;

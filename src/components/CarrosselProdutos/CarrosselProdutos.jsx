@@ -5,7 +5,7 @@ import { listaDeFotos } from "../../data/mockData";
 import setaEsquerda from "../../assets/setaEsquerda.svg";
 import setaDireita from "../../assets/setaDireita.svg";
 
-export function CarrosselProdutos() {
+export function CarrosselProdutos({ onAdicionar }) {
   return (
     <section className="produtos-section">
       <h2>Nossos produtos</h2>
@@ -17,7 +17,7 @@ export function CarrosselProdutos() {
           classePosicao="posicao-produto-esq"
         />
 
-        <CarrosselImg dadosCarrossel={listaDeFotos} tipoCarrossel="produtos" />
+        <CarrosselImg dadosCarrossel={listaDeFotos} tipoCarrossel="produtos" onAdicionar={onAdicionar} />
 
         <BotaoSeta
           iconeSeta={setaDireita}
