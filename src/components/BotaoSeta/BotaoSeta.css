@@ -1,0 +1,19 @@
+.botao-base {
+  background-color: #ffffff;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.botao-base img {
+  width: 6px;
+  height: 11px;
+  object-fit: contain;
+}

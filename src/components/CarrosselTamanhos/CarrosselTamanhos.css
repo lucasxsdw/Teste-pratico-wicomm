@@ -1,0 +1,65 @@
+.tamanhos-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  gap: 13px;
+  position: relative;
+}
+
+.tamanhos-section h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #0c0c0c;
+  text-transform: uppercase;
+  margin-left: 67px;
+}
+
+.tamanhos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.tamanhos-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.74px solid #c8102e;
+  border-radius: 50%;
+  width: 59px;
+  height: 59px;
+  margin-top: 8px;
+  color: #c8102e;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.tamanhos-pista {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 13px;
+}
+
+.posicao-tamanho-esq {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.posicao-tamanho-dir {
+  position: absolute;
+  top: 50%;
+  right: 17px;
+  transform: translateY(-50%);
+  z-index: 10;
+}

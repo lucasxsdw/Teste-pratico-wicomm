@@ -1,0 +1,131 @@
+/* container do conteudo da pagina */
+.hero-banner {
+  background-image: url("../../assets/fotoModelo.svg");
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+  max-height: 702px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 280px;
+  left: 47px;
+  gap: 18px;
+  bottom: 127px;
+}
+
+.topo-preco {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.preco-antigo {
+  color: #fafaf8;
+  font-weight: 400;
+  font-size: 18.34px;
+  line-height: 18.11px;
+  letter-spacing: 0.04em;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.promo {
+  background-color: #c8102e;
+  width: 62px;
+  height: 20px;
+  border-radius: 76px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fafaf8;
+  font-weight: 600;
+  font-size: 10.7px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.preco-atual {
+  color: #fafaf8;
+  font-weight: 900;
+  font-size: 55.03px;
+  line-height: 37.33px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  margin-top: -10px;
+}
+
+.confira-button {
+  background-color: #c8102e;
+  color: #fafaf8;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  font-size: 13.5px;
+  line-height: 20.24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  padding: 6px 27px;
+  border-radius: 84px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 74px;
+  left: 130px;
+  white-space: nowrap;
+}
+
+.paginacao-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 49px;
+  height: 30px;
+  position: absolute;
+  bottom: 24px;
+  left: 160px;
+}
+
+.ponto {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.ponto.ativo {
+  background: #c8102e;
+}
+
+.barra-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c8102e;
+  padding: 10px 16px;
+  height: 44px;
+  line-height: 24px;
+}
+
+.barra-section h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #fafaf8;
+}

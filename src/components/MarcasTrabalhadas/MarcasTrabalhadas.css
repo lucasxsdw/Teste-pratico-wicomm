@@ -1,0 +1,80 @@
+.marcas-container {
+  margin-top: 32px;
+  padding-bottom: 20px;
+  background: linear-gradient(102.59deg, #E23D58 0%, #C8102E 100%);
+}
+
+.nossas-marcas {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  opacity: 1;
+  padding-left: 17px;
+  color: #FAFAF8;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.carrossel-marca {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 16px;
+  gap: 25px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.nome-marca {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FAFAF8;
+  padding-top: 20px;
+}
+
+.barra-marca {
+  margin-bottom: 40px;
+  width: 343px;
+  height: 3px;
+  border-width: 3px;
+  background-color: #FFFFFF;
+  margin-left: 16px;
+  margin-top: 3px;
+  position: relative;
+  border-radius: 3px;
+}
+
+.barra-marca-flutuante {
+  background-color: #2C2C2C;
+  height: 3px;
+  width: 74px;
+  border-radius: 3px;
+}
+
+.img-modelos-mizunos {
+  display: flex;
+  justify-content: center;
+}
+
+.container-marca {
+  height: auto;
+  padding-top: 16px;
+}
+
+.card-marca {
+  display: flex;
+  justify-content: flex-start;
+  gap: 14px;
+  height: auto;
+  margin-left: 16px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+  scrollbar-width: none;
+}
+
+.card-marca::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,201 @@
+.card-produto-completo {
+  height: 336px;
+  width: 169px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.desc-produto {
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 156px;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.procentagem-desconto-produto {
+  background-color: #C8102E;
+  margin-left: 9px;
+  margin-top: 12px;
+  border-radius: 76px;
+  padding: 2px 8px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: normal;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.icone-coracao {
+  margin-right: 9px;
+  margin-top: 12px;
+}
+
+.imagem-tenis {
+  width: 143px;
+  height: auto;
+  mix-blend-mode: multiply;
+  margin-top: 17px;
+}
+
+.info-produto {
+  display: flex;
+  flex-direction: column;
+  background-color: #FAFAF8;
+  padding: 8px 9px 12px 9px;
+  gap: 5px;
+}
+
+.nome-marca-produto {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #888888;
+}
+
+.desc-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-bottom: 7px;
+  padding-top: 4px;
+}
+
+.preco-antigo-produto {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: line-through;
+  color: #888888;
+}
+
+.preco-atual-produto {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #C8102E;
+}
+
+.preco-clube {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  color: #555555;
+}
+
+.valor-destaque {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #C89B2A;
+}
+
+.texto-parcelamento {
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #888888;
+}
+
+.destaque-parcela {
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  color: #888888;
+}
+
+.botao-comprar {
+  width: 100%; 
+  height: 26px;
+  border-radius: 75px;
+  border: none;
+  background-color: #C8102E;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* --- CARD DESTAQUE (Ajustado para o print da seção vermelha) --- */
+.card-produto-completo.destaque {
+  width: 224px;
+  height: 445px;
+  border-radius: 24px;
+  gap: 12px;
+  background-color: #FFFFFF;
+  flex-shrink: 0;
+}
+
+.card-produto-completo.destaque .desc-produto {
+  width: 100%;
+  height: 190px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.card-produto-completo.destaque .imagem-tenis {
+  width: 180px;
+  height: auto;
+  margin-top: 18px;
+}
+
+.card-produto-completo.destaque .info-produto {
+  padding: 16px 14px 16px 14px;
+  background-color: #FFFFFF;
+  gap: 12px;
+}
+
+.card-produto-completo.destaque .desc-item {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card-produto-completo.destaque .nome-marca-produto {
+  font-size: 12px;
+}
+
+.card-produto-completo.destaque .preco-atual-produto {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.card-produto-completo.destaque .preco-antigo-produto,
+.card-produto-completo.destaque .valor-destaque,
+.card-produto-completo.destaque .preco-clube,
+.card-produto-completo.destaque .texto-parcelamento,
+.card-produto-completo.destaque .destaque-parcela {
+  font-size: 12px;
+}
+
+.card-produto-completo.destaque .botao-comprar {
+  height: 38px;
+  font-size: 12px;
+  margin-top: 8px;
+}

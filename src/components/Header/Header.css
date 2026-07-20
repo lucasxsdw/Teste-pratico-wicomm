@@ -1,0 +1,26 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+  width: 375px;
+  padding: 12px 16px 12px 24px;
+  box-sizing: border-box;
+}
+
+.icon-search {
+  width: 20px;
+  height: 20px;
+  gap: 12px;
+}
+
+.icon-logo {
+  width: 161.25px;
+  height: 23.8px;
+}
+
+.icon-cart {
+  width: 20px;
+  height: 20px;
+  gap: 12px;
+}

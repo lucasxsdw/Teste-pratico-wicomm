@@ -1,0 +1,61 @@
+.filtro-section {
+  margin-top: 32px;
+}
+
+.carrossel-filtro {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 16px;
+  gap: 16px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.nomes-filtros-red {
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #C8102E;
+}
+
+.nomes-filtros {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #2C2C2C;
+}
+
+.barra-filtro {
+  margin-bottom: 10px;
+  width: 343px;
+  height: 3px;
+  border-width: 3px;
+  background-color: #FFFFFF;
+  margin-left: 16px;
+  position: relative;
+  border-radius: 3px;
+}
+
+.barra-filtro-flutuante {
+  background-color: #C8102E;
+  height: 3px;
+  width: 97px;
+  border-radius: 3px;
+}
+
+.container-produtos {
+  background-color: #ffffff;
+  height: auto;
+  padding-top: 16px;
+}
+
+.card-produtos {
+  display: flex;
+  justify-content: flex-start;
+  gap: 14px;
+  height: auto;
+  margin-left: 16px;
+}
