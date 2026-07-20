@@ -41,9 +41,10 @@
 
 .promo {
   background-color: #c8102e;
-  width: 62px;
+  width: auto;
   height: 20px;
   border-radius: 76px;
+  padding: 3px 8px;
 
   display: flex;
   justify-content: center;
@@ -55,6 +56,7 @@
   line-height: 1;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .preco-atual {
@@ -68,8 +70,8 @@
 }
 
 .confira-button {
-  background-color: #c8102e;
-  color: #fafaf8;
+  background-color: #c8102e ;
+  color: #fafaf8 !important;
   text-decoration: none;
   text-transform: uppercase;
 
