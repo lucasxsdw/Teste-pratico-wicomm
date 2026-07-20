@@ -1,6 +1,6 @@
 
 *{
-    margin: 0;
+   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Outfit', sans-serif;
@@ -19,16 +19,11 @@ body {
 #root {
   width: 100%;
   max-width: 375px; 
- 
   background-color: #F2F2F0;
-
-  
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
-  
   display: flex;
   flex-direction: column;
   overflow-x: hidden; 
-
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
   border-bottom-left-radius: 32px;

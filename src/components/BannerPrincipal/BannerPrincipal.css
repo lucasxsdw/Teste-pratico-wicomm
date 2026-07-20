@@ -70,17 +70,16 @@
 }
 
 .confira-button {
-  background-color: #c8102e ;
+  background-color: #c8102e;
   color: #fafaf8 !important;
   text-decoration: none;
   text-transform: uppercase;
-
   font-weight: 600;
   font-size: 13.5px;
-  line-height: 20.24px;
+  line-height: 1;
   letter-spacing: 0.02em;
   text-align: center;
-  padding: 6px 27px;
+  padding: 10px 24px;
   border-radius: 84px;
   display: inline-flex;
   justify-content: center;
@@ -89,6 +88,19 @@
   bottom: 74px;
   left: 130px;
   white-space: nowrap;
+  min-width: 110px;  
+  min-height: 36px;  
+  z-index: 10;
+}
+
+.confira-button span {
+  color: #fafaf8 !important;
+  display: block;
+}
+
+.confira-button span {
+  color: #ffffff !important;
+  display: block;
 }
 
 .paginacao-container {

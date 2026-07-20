@@ -12,7 +12,7 @@ export function BannerPrincipal() {
           <h1 className="preco-atual">R$ 350,00</h1>
         </div>
 
-        <a href="" className="confira-button">
+        <a href="#" className="confira-button">
           Confira
         </a>
 
