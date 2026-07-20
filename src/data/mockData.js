@@ -5,7 +5,7 @@ import imgModelo from "../assets/img.svg";
 
 import logoConverse from "../assets/logoConverse.svg";
 import logoOlympikus from "../assets/logoOlympikus.svg";
-import logoKenner from  "../assets/logo-kenner.png";
+import logoKenner from "../assets/logo-kenner.png";
 import modeloConverse from "../assets/modeloConverse.svg";
 import modeloOlympikus from "../assets/modeloOlympikus.svg";
 import marca from "../assets/marca.jpg";
@@ -14,8 +14,8 @@ import tenisMizuno from "../assets/tenisMizuno.svg";
 import gostei from "../assets/gostei.svg";
 
 import logoHome from "../assets/logoHome.svg";
-import logoCarrinho from "../assets/logoCarrinho.svg";
-import logoDs from "../assets/logoDS.svg";
+import logoCarrinho from "../assetslogoDS/logoCarrinho.svg";
+import logoDS from "../assets/logoDS.svg";
 import logoCard from "../assets/logoCard.svg";
 import logoUser from "../assets/logoUser.svg";
 
@@ -35,7 +35,7 @@ export const listaProdutosMasculinos = [
     parcelamentoDestaque: "5x de R$ 100,00",
   },
 
-    {
+  {
     id: 15,
     porcentagemDesconto: "-20%",
     iconeGostei: gostei,
@@ -50,8 +50,7 @@ export const listaProdutosMasculinos = [
     parcelamentoDestaque: "5x de R$ 100,00",
   },
 
-
-    {
+  {
     id: 16,
     porcentagemDesconto: "-20%",
     iconeGostei: gostei,
@@ -66,8 +65,7 @@ export const listaProdutosMasculinos = [
     parcelamentoDestaque: "5x de R$ 100,00",
   },
 
-
-    {
+  {
     id: 17,
     porcentagemDesconto: "-20%",
     iconeGostei: gostei,
@@ -81,7 +79,6 @@ export const listaProdutosMasculinos = [
     textoClube: " no Clube",
     parcelamentoDestaque: "5x de R$ 100,00",
   },
-  
 ];
 
 export const tamanhosProdutos = [33, 34, 35, 36];
@@ -96,15 +93,15 @@ export const listaMarcas = [
   { id: 4, img: modeloConverse, logo: logoConverse, titulo: "Converse" },
   { id: 5, img: modeloOlympikus, logo: logoOlympikus, titulo: "Olympikus" },
   { id: 6, img: marca, logo: logoKenner, titulo: "Kenner" },
-  
+
   { id: 7, img: modeloConverse, logo: logoConverse, titulo: "Converse" },
-  { id: 8, img: modeloOlympikus, logo: logoOlympikus, titulo: "Olympikus" },  
+  { id: 8, img: modeloOlympikus, logo: logoOlympikus, titulo: "Olympikus" },
 ];
 
 export const imgensNavBar = [
   { id: 9, img: logoHome, desc: "Ícone home" },
   { id: 10, img: logoCarrinho, desc: "Ícone carrinho" },
-  { id: 11, img: logoDs, desc: "Ícone DI SANTINNI" },
+  { id: 11, img: logoDS, desc: "Ícone DI SANTINNI" },
   { id: 12, img: logoCard, desc: "Ícone cartão de compra " },
   { id: 13, img: logoUser, desc: "Ícone usuário" },
 ];
