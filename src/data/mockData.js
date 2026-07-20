@@ -15,7 +15,7 @@ import gostei from "../assets/gostei.svg";
 
 import logoHome from "../assets/logoHome.svg";
 import logoCarrinho from "../assets/logoCarrinho.svg";
-import logoDs from "../assets/logoDs.svg";
+import logoDs from "../assets/logoDS.svg";
 import logoCard from "../assets/logoCard.svg";
 import logoUser from "../assets/logoUser.svg";
 
