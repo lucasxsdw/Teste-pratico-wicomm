@@ -14,8 +14,8 @@ import tenisMizuno from "../assets/tenisMizuno.svg";
 import gostei from "../assets/gostei.svg";
 
 import logoHome from "../assets/logoHome.svg";
-import logoCarrinho from "../logoCarrinho.svg";
-import logoDS from "../assets/logoDS.svg";
+import logoCarrinho from "../assets/logoCarrinho.svg"; 
+import logoDS from "../assets/logoDS.svg";           
 import logoCard from "../assets/logoCard.svg";
 import logoUser from "../assets/logoUser.svg";
 
